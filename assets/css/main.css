@@ -34,10 +34,10 @@
 }
 
 .dark-background {
-  --background-color: #3a4753;
+  --background-color: #000000;
   --default-color: #ffffff;
   --heading-color: #ffffff;
-  --surface-color: #4f6171;
+  --surface-color: #000000;
   --contrast-color: #ffffff;
 }
 
@@ -553,6 +553,7 @@ h6 {
 .footer .footer-top {
   background-color: color-mix(in srgb, var(--background-color), white 5%);
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .footer .footer-about .logo {
